@@ -98,10 +98,10 @@ def check_tty():
         print("[!] run this in a real terminal:")
         if IS_WIN:
             print("    powershell - run:")
-            print("        python swivel.py")
+            print("        python iplog.py")
         else:
             print("    termux       - open termux, run:")
-            print("                   python swivel.py")
+            print("                   python iplog.py")
             print("    ssh          - should work by default")
             print("    tmux/screen  - should work by default")
         print()

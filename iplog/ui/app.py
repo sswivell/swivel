@@ -38,7 +38,7 @@ class App:
         # Find theme index
         theme_idx = 0
         for i, t in enumerate(list(theme.THEMES)):
-            if t == cfg.get("theme", "SWIVEL"):
+            if t == cfg.get("theme", "IPLOG"):
                 theme_idx = i
                 break
         
@@ -223,7 +223,7 @@ def render(app, ctx):
              + " " + fg(*theme.GREY) + "edit" + "\x1b[0m" + "  " + fg(*theme.WHITE) + "tab" + "\x1b[0m"
              + " " + fg(*theme.GREY) + "next" + "\x1b[0m" + "  " + fg(*theme.WHITE) + "q" + "\x1b[0m"
              + " " + fg(*theme.GREY) + "quit" + "\x1b[0m")
-    out.append(ctx.m + W.lr(hints, fg(*theme.GREY) + "swivel v1.3" + "\x1b[0m", ctx.w))
+    out.append(ctx.m + W.lr(hints, fg(*theme.GREY) + "iplog v1.4  by swivel" + "\x1b[0m", ctx.w))
     return out[:max(1, ctx.rows)]
 
 

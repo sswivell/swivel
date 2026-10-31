@@ -5,14 +5,14 @@ import os
 from ..utils.bootstrap import IS_WIN
 
 if IS_WIN:
-    CONFIG_DIR = os.path.join(os.environ.get("APPDATA", ""), "swivel")
+    CONFIG_DIR = os.path.join(os.environ.get("APPDATA", ""), "iplog")
 else:
-    CONFIG_DIR = os.path.join(os.path.expanduser("~"), ".config", "swivel")
+    CONFIG_DIR = os.path.join(os.path.expanduser("~"), ".config", "iplog")
 
 CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
 
 DEFAULTS = {
-    "theme": "SWIVEL",
+    "theme": "IPLOG",
     "animations": True,
     "sparklines": True,
     "compact": True,

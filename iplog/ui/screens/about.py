@@ -12,7 +12,7 @@ def about(app, ctx):
     """Usage notes and the key map."""
     out = heading(ctx, " ABOUT ")
     info = ["",
-            B + fg(*T.WHITE) + "IPLOGGER x SWIVEL" + R, "",
+            B + fg(*T.WHITE) + "IPLOG" + R + "  " + fg(*T.GREY) + "by Swivel" + R, "",
             fg(*T.GREY) + "paste webhook in setup" + R,
             fg(*T.GREY) + "set target url" + R,
             fg(*T.GREY) + "press start" + R,

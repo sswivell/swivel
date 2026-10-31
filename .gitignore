@@ -25,7 +25,7 @@ dist/
 Thumbs.db
 
 # Project specific
-.swivel_cloudflared
+.iplog_cloudflared
 cloudflared*
 *.pdb
 *.deps.json

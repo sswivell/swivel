@@ -1,10 +1,10 @@
-"""swivel - terminal IP logger with browser fingerprinting."""
+"""iplog - terminal IP logger with browser fingerprinting. by Swivel."""
 
 # Import from utils at module level
 from .utils.bootstrap import (HT, IS_POSIX, IS_WIN, TM, check_tty, enable_ansi,
                               enter_alt_screen, leave_alt_screen, raw_terminal)
 
-__version__ = "1.3"
+__version__ = "1.4"
 __all__ = ["HT", "IS_POSIX", "IS_WIN", "TM", "check_tty", "enable_ansi",
            "enter_alt_screen", "leave_alt_screen", "raw_terminal",
            "set_brightness", "set_theme", "main"]

@@ -1,6 +1,8 @@
-# Swivel IP Logger
+# IPLOG
 
 Terminal-based IP logger with real-time traffic visualization, browser fingerprinting, and Discord webhook notifications.
+
+**by Swivel**
 
 ## Quick Start
 
@@ -8,24 +10,24 @@ Terminal-based IP logger with real-time traffic visualization, browser fingerpri
 git clone https://github.com/sswivell/ip-logger.git
 cd ip-logger
 pip install -e .
-swivel
+iplog
 ```
 
 Or run directly:
 ```bash
-python swivel.py
+python iplog.py
 ```
 
 ## Usage
 
 ```bash
 # With Discord webhook and target URL
-swivel "https://discord.com/api/webhooks/..." "https://example.com"
+iplog "https://discord.com/api/webhooks/..." "https://example.com"
 
 # Keyboard shortcuts
 Tab/]    Next tab          W/S     Navigate
 [        Prev tab          A/D     Adjust settings
-1-6      Jump to tab       Enter   Edit/activate
+1-9/0    Jump to tab       Enter   Edit/activate
 R        Reset sim         C       Clear hits
 Q        Quit
 ```
@@ -36,5 +38,10 @@ Q        Quit
 2. **LIVE** - Real-time hits + traffic chart
 3. **STATS** - Counters, top countries, ISPs
 4. **FP** - Browser fingerprints
-5. **SETTINGS** - Theme, brightness, refresh rate
-6. **ABOUT** - Help & key bindings
+5. **REPLAY** - Replay a saved session
+6. **SESSIONS** - Saved sessions
+7. **PAYLOAD** - Request payload inspector
+8. **NETWORK** - Network diagnostics
+9. **ALERTS** - Alert history
+10. **SETTINGS** - Theme, brightness, refresh rate
+11. **ABOUT** - Help & key bindings

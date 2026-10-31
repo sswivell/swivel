@@ -140,7 +140,7 @@ def notify(ip, info, tags, score, ab, ua, os_name, browser, fp, stamp):
         "title": "hit", "description": "**%s** - %s %s" % (ip, flag,
                                                           info["cit"]),
         "color": colour, "fields": fields,
-        "footer": {"text": "%s - swivel" % stamp},
+        "footer": {"text": "%s - iplog by swivel" % stamp},
     }
     try:
         req = urllib.request.Request(

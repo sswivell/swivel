@@ -12,7 +12,7 @@ import zipfile
 from .bootstrap import IS_WIN, TM, sh
 
 NAME = "cloudflared.exe" if IS_WIN else "cloudflared"
-CACHE = os.path.expanduser("~/.swivel_cloudflared")
+CACHE = os.path.expanduser("~/.iplog_cloudflared")
 BASE = "https://github.com/cloudflare/cloudflared/releases/latest/download/"
 ERRORS = []
 

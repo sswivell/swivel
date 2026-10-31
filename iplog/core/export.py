@@ -36,7 +36,7 @@ def export_session(path=None):
     """Auto-generate filename and export both formats."""
     if path is None:
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-        base = f"swivel_session_{ts}"
+        base = f"iplog_session_{ts}"
     else:
         base = os.path.splitext(path)[0]
     json_path = base + ".json"
