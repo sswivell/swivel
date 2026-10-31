@@ -1,6 +1,5 @@
-# IPLOG
+# IPLOGGGER
 
-Terminal-based IP logger with real-time traffic visualization, browser fingerprinting, and Discord webhook notifications.
 
 **by Swivel**
 
